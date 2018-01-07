@@ -1,0 +1,607 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #454343;
+    background: red;
+
+}
+
+#page-wrap {
+    margin: auto;
+}
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.activetab {
+    text-decoration: underline;
+    text-decoration-color: #ceaede;
+}
+
+#alle a {
+    flex-basis: 350px;
+    padding: 1vw;
+
+
+}
+
+#alle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 2em;
+    margin: 0;
+    color: #454343;
+    animation-name: fadein_kf;
+    animation-fill-mode: forwards;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    padding: 10vw 60vw 0vw 9vw;
+}
+
+
+
+@keyframes fadein_kf {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+#forside {
+    width: 100%;
+    height: 40vw;
+    background-image: url(Img/hero-image.jpg);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#cv .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#cv .content1 {
+    flex-basis: 350px;
+    margin: 3vw 0vw 0vw 0vw;
+
+}
+
+#cv .content2 {
+    flex-basis: 200px;
+    flex-wrap: wrap;
+    padding: 3vw 0vw 0vw 3vw;
+}
+
+#cv .content3 {
+    flex-basis: 200px;
+    flex-wrap: wrap;
+    padding-top: 3vw;
+}
+
+
+#cv .content4 {
+    flex-basis: 200px;
+    flex-wrap: wrap;
+    padding-top: 3vw;
+}
+
+
+
+section {
+    padding: 0% 6% 0% 6%;
+}
+
+
+
+#opgave .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+#opgave .content1 {
+    flex-basis: 300px;
+}
+
+#opgave .content2 {
+    flex-basis: 300px;
+    background-color: #A8554d;
+    margin-bottom: 3vw;
+    padding: 2% 2% 2% 2%;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+
+#opgave h2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+#mitarbejde nav {
+    font-size: 1.2em;
+    padding: 5vw 0vw 2vw 0vw;
+    text-align: center;
+}
+
+#mitarbejde a {
+    padding-left: 2vw;
+}
+
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: #A8554d;
+
+}
+
+li a:hover {
+    color: white;
+
+}
+
+
+/*HTMLtab*/
+
+/*Video tab*/
+
+/*Animation tab*/
+
+/*cphdox*/
+
+.img__wrap {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    margin: 0px;
+}
+
+.img__img {
+    width: 100%;
+}
+
+.img__description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(128, 128, 128, 0.92);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    margin: 0px;
+    text-align: center;
+    padding-top: 25%;
+    font-size: 1.5em;
+    font-weight: 600;
+
+    transition: opacity .7s, visibility .2s;
+}
+
+.img__wrap:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+}
+
+#opgave .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#opgave .content1 {
+    flex-basis: 500px;
+    margin-right: 7vw;
+}
+
+#opgave .content2 {
+    flex-basis: 300px;
+    background-color: #A8554d;
+    margin-bottom: 3vw;
+
+}
+
+
+
+#opgave img {
+    width: 100%;
+}
+
+
+#opgave iframe {
+    width: 100%;
+}
+
+
+.content2 h3 {
+    color: white;
+    padding-left: 2vw;
+
+}
+
+
+.content1 img {
+    padding-bottom: 3vw;
+}
+
+
+#opgave p {
+    padding: 0vw 0vw 3vw 0vw;
+
+}
+
+header a {
+    margin-left: 5.6vw;
+}
+
+.embed-container {
+    margin-bottom: 3vw;
+}
+
+/*
+
+dekonstruktivisme
+*/
+
+.img__wrap1 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    margin: 0px;
+}
+
+.img__img1 {
+    width: 100%;
+}
+
+.img__description1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(128, 128, 128, 0.92);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    margin: 0px;
+    text-align: center;
+    padding-top: 15%;
+    font-size: 1.5em;
+    font-weight: 600;
+
+    transition: opacity .7s, visibility .2s;
+}
+
+.img__wrap1:hover .img__description1 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*
+
+Mandogulv
+*/
+
+.img__wrap2 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    margin: 0px;
+}
+
+.img__img2 {
+    width: 100%;
+}
+
+.img__description2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(128, 128, 128, 0.92);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    margin: 0px;
+    text-align: center;
+    padding-top: 9%;
+    font-size: 1.5em;
+    font-weight: 600;
+
+    transition: opacity .7s, visibility .2s;
+}
+
+.img__wrap2:hover .img__description2 {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*
+
+The instagame
+*/
+
+.img__wrap3 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    margin: 0px;
+}
+
+.img__img3 {
+    width: 100%;
+}
+
+.img__description3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(128, 128, 128, 0.92);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    margin: 0px;
+    text-align: center;
+    padding-top: 35%;
+    font-size: 1.5em;
+    font-weight: 600;
+
+    transition: opacity .7s, visibility .2s;
+}
+
+.img__wrap3:hover .img__description3 {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*
+
+Redesign
+*/
+
+.img__wrap4 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    margin: 0px;
+}
+
+.img__img4 {
+    width: 100%;
+}
+
+.img__description4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(128, 128, 128, 0.92);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    margin: 0px;
+    text-align: center;
+    padding-top: 12%;
+    font-size: 1.5em;
+    font-weight: 600;
+
+    transition: opacity .7s, visibility .2s;
+}
+
+.img__wrap4:hover .img__description4 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*
+
+Kundecase
+*/
+
+.img__wrap5 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    margin: 0px;
+}
+
+.img__img5 {
+    width: 100%;
+}
+
+.img__description5 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(128, 128, 128, 0.92);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    margin: 0px;
+    text-align: center;
+    padding-top: 17%;
+    font-size: 1.5em;
+    font-weight: 600;
+
+    transition: opacity .7s, visibility .2s;
+}
+
+.img__wrap5:hover .img__description5 {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*
+
+Øvelsescase
+*/
+
+.img__wrap6 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    margin: 0px;
+}
+
+.img__img6 {
+    width: 100%;
+}
+
+.img__description6 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(128, 128, 128, 0.92);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    margin: 0px;
+    text-align: center;
+    padding-top: 25%;
+    font-size: 1.5em;
+    font-weight: 600;
+
+    transition: opacity .7s, visibility .2s;
+}
+
+.img__wrap6:hover .img__description6 {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*
+
+Pilotprojekt
+*/
+
+.img__wrap7 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    margin: 0px;
+}
+
+.img__img7 {
+    width: 100%;
+}
+
+.img__description7 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(128, 128, 128, 0.92);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    margin: 0px;
+    text-align: center;
+    padding-top: 16%;
+    font-size: 1.5em;
+    font-weight: 600;
+
+    transition: opacity .7s, visibility .2s;
+}
+
+.img__wrap7:hover .img__description7 {
+    visibility: visible;
+    opacity: 1;
+}
+
+h3 {
+    color: white;
+}
+
+small {
+    font-size: 0.7em;
+}
+
+
+.logo {
+    width: 15vw
+}
+
+footer {
+    background-color: rgb(225, 199, 239);
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0.5%;
+    width: 100vw;
+}
+
+footer p {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    padding-left: 12vw;
+    color: #454343;
+}
+
+
+@media only screen and (max-width: 900px) {
+
+    h1 {
+        font-size: 1em;
+        padding: 12vw 30vw 0vw 10vw;
+    }
+
+    .content2 li {
+        font-size: 1em;
+    }
+}
