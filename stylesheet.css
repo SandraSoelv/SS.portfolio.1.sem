@@ -3,7 +3,6 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     color: #454343;
-    background: red;
 
 }
 
@@ -26,7 +25,7 @@ header a {
 
 .activetab {
     text-decoration: underline;
-    text-decoration-color: #ceaede;
+    text-decoration-color: rgb(225, 208, 234);
 }
 
 #alle a {
@@ -55,7 +54,7 @@ h1 {
     animation-fill-mode: forwards;
     animation-duration: 6s;
     animation-iteration-count: 1;
-    padding: 10vw 60vw 0vw 9vw;
+    padding: 5vw 60vw 0vw 9vw;
 }
 
 
@@ -102,6 +101,16 @@ h1 {
     padding-top: 3vw;
 }
 
+#cv {
+    flex-basis: 200px;
+}
+
+
+#cv img {
+    margin-right: 5vw;
+}
+
+
 
 #cv .content4 {
     flex-basis: 200px;
@@ -130,13 +139,14 @@ section {
 
 #opgave .content1 {
     flex-basis: 300px;
+    margin-top: 3vw;
 }
 
 #opgave .content2 {
     flex-basis: 300px;
-    background-color: #A8554d;
+    background-color: #deb9de;
     margin-bottom: 3vw;
-    padding: 2% 2% 2% 2%;
+    padding: 2%;
     width: 100%;
     word-wrap: break-word;
 }
@@ -161,10 +171,14 @@ section {
     padding-left: 2vw;
 }
 
+#mitarbejde a:active {
+    padding-left: 2vw;
+}
+
 
 a:hover {
     text-decoration: underline;
-    text-decoration-color: #A8554d;
+    text-decoration-color: rgb(185, 140, 209);
 
 }
 
@@ -176,9 +190,60 @@ li a:hover {
 
 /*HTMLtab*/
 
+#html {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#html a {
+    flex-basis: 350px;
+    padding: 3vw;
+
+}
+
 /*Video tab*/
 
+#video {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#video a {
+    flex-basis: 350px;
+    padding: 3vw;
+}
+
 /*Animation tab*/
+
+#animation {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#animation a {
+    flex-basis: 350px;
+    padding: 3vw;
+}
+
+/*UX tab*/
+
+#ux {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#ux a {
+    flex-basis: 350px;
+    padding: 3vw;
+}
 
 /*cphdox*/
 
@@ -231,8 +296,7 @@ li a:hover {
 
 #opgave .content2 {
     flex-basis: 300px;
-    background-color: #A8554d;
-    margin-bottom: 3vw;
+    margin: 3vw;
 
 }
 
@@ -302,7 +366,7 @@ dekonstruktivisme
     opacity: 0;
     margin: 0px;
     text-align: center;
-    padding-top: 15%;
+    padding-top: 25%;
     font-size: 1.5em;
     font-weight: 600;
 
@@ -343,7 +407,7 @@ Mandogulv
     opacity: 0;
     margin: 0px;
     text-align: center;
-    padding-top: 9%;
+    padding-top: 20%;
     font-size: 1.5em;
     font-weight: 600;
 
@@ -385,7 +449,7 @@ The instagame
     opacity: 0;
     margin: 0px;
     text-align: center;
-    padding-top: 35%;
+    padding-top: 25%;
     font-size: 1.5em;
     font-weight: 600;
 
@@ -427,7 +491,7 @@ Redesign
     opacity: 0;
     margin: 0px;
     text-align: center;
-    padding-top: 12%;
+    padding-top: 25%;
     font-size: 1.5em;
     font-weight: 600;
 
@@ -468,7 +532,7 @@ Kundecase
     opacity: 0;
     margin: 0px;
     text-align: center;
-    padding-top: 17%;
+    padding-top: 25%;
     font-size: 1.5em;
     font-weight: 600;
 
@@ -552,7 +616,7 @@ Pilotprojekt
     opacity: 0;
     margin: 0px;
     text-align: center;
-    padding-top: 16%;
+    padding-top: 25%;
     font-size: 1.5em;
     font-weight: 600;
 
@@ -574,16 +638,16 @@ small {
 
 
 .logo {
-    width: 15vw
+    width: 7vw;
+    padding: 2vw;
 }
 
 footer {
-    background-color: rgb(225, 199, 239);
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    padding: 0.5%;
     width: 100vw;
+    border: 1px solid grey;
 }
 
 footer p {
@@ -594,14 +658,18 @@ footer p {
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
 
     h1 {
         font-size: 1em;
         padding: 12vw 30vw 0vw 10vw;
     }
+}
 
-    .content2 li {
-        font-size: 1em;
+@media only screen and (max-width: 400px) {
+
+    h1 {
+        font-size: 0.7em;
+        padding: 12vw 30vw 0vw 10vw;
     }
 }
